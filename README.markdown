@@ -11,14 +11,14 @@ root@localhost:/home/westporch/Git# git clone https://github.com/westporch/ipmit
 
 pmitool_time_sync 디렉토리로 이동하여 install.py의 허가권을 설정합니다.
 
-{% highlight sh %}
+```sh
 root@localhost:/home/westporch/Git/ipmitool_time_sync# chmod 655 install.py
-{% endhighlight %}
+```
 
 install.py를 실행합니다.
 
-{% highlight sh %}
+```sh
 root@localhost:/home/westporch/Git/ipmitool_time_sync# ./install.py
-{% endhighlight %}
+```
 
 이후 ipmitool_time_sync.sh 파일을 /etc/rc.d/rc.local에 등록하여 부팅 시 자동으로 ipmitool_time_sync.sh 파일을 실행하도록 합니다.
