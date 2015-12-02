@@ -5,9 +5,9 @@ ipmitool로 조회한 로그의 시간을 시스템 시간과 동기화합니다
 
 소스 복사
 
-{% highlight sh %}
+```sh
 root@localhost:/home/westporch/Git# git clone https://github.com/westporch/ipmitool_time_sync.git
-{% endhighlight %}
+```
 
 pmitool_time_sync 디렉토리로 이동하여 install.py의 허가권을 설정합니다.
 
